@@ -1,5 +1,3 @@
-# Don't change this [ /GiftedTech/ ] name!
-# Change from below link, else bot wil not work!
 
 FROM node:lts-buster
 
