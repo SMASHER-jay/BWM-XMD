@@ -21,4 +21,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "gifted/gifted.js"]
+CMD ["node", "body.js"]
