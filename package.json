@@ -1,17 +1,17 @@
 {
-  "name": "gifted-md",
+  "name": "bmw-md",
   "version": "5.0.0",
-  "description": "Gifted latest multi device whatsapp bot",
-  "main": "./gifted/gifted.js",
+  "description": "Bmw latest multi device whatsapp bot",
+  "main": "body.js",
   "type": "module",
   "engines" : { "node": "v20.15.1", "npm": "v10.8.2" },
   "scripts": {
-    "start": "pm2 start gifted/gifted.js --deep-monitoring --attach --name gifted",
-    "stop": "pm2 stop gifted",
-    "restart": "pm2 restart gifted"
+    "start": "pm2 start body.js --deep-monitoring --attach --name Bmwmd",
+    "stop": "pm2 stop Bmwmd",
+    "restart": "pm2 restart Bmwmd"
   },
-  "keywords": ["gifted-md", "gifted-api", "gifted-baileys", "mouricedevs", "whatsapp-bot", "gifted-tech"],
-  "author": "Gifted Tech",
+  "keywords": ["bmw-md", "ibrahim-api", "adams-baileys", "ibrahimadams", "whatsapp-bot", "Ibrahim-tech"],
+  "author": "Ibrahim Adams",
   "license": "GNU",
   "dependencies": {
     "gifted-baileys": "^1.5.1",
@@ -81,18 +81,18 @@
     "yt-search": "^2.11.0"
       },
      "directories": {
-      "lib": "gift",
-      "plugins": "gifted/cmds"
+      "lib": "bdd",
+      "plugins": "bmw"
    },
    "devDependencies": {
       "pino": "^7.0.5"
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/mouricedevs/gifted.git"
+      "url": "git+https://github.com/omlugha/BWM-XMD.git"
    },
    "bugs": {
-      "url": "https://github.com/mouricedevs/gifted/issues"
+      "url": "https://github.com/omlugha/BWM-XMD/issues"
    },
-   "homepage": "https://github.com/mouricedevs/gifted#readme"
+   "homepage": "https://github.com/omlugha/BWM-XMD#readme"
 }
